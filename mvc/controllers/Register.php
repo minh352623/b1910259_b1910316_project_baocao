@@ -17,6 +17,7 @@ class Register extends Controller
         if (isset($_POST['dangki'])) {
             $userName = $_POST['fullname'];
             $password = $_POST['password'];
+            
             $password = password_hash($password, PASSWORD_DEFAULT);
             $email = $_POST['email'];
             $message = $this->register->insertUser($userName, $email, $password);

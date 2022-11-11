@@ -45,6 +45,6 @@ class Ajax extends Controller
     function removeItem()
     {
         $id = $_POST['id_pro'];
-        print($this->Product->removeItem($id));
+        print_r($this->Product->removeItem($id));
     }
 }

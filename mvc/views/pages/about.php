@@ -13,7 +13,7 @@
         <div class="row pt-5">
             <div class="col-lg-6">
                 <video loop autoplay muted id="bg-video-2">
-                    <source src="../../live/public/image/Knight - 31210.mp4" type="video/mp4" />
+                    <source src="<?php echo _WEB_HOST_TEMPLATE  ?>/image/Knight - 31210.mp4" type="video/mp4" />
 
                 </video>
             </div>

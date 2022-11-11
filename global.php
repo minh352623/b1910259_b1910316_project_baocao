@@ -1,5 +1,5 @@
 <?php
-define('_WEB_HOST_ROOT', 'http://' . $_SERVER['HTTP_HOST'] . '/live'); //địa chỉ trang chủ
+define('_WEB_HOST_ROOT', 'http://' . $_SERVER['HTTP_HOST'] . '/B1910259_B1910316_Project_Baocao'); //địa chỉ trang chủ
 
 define('_WEB_HOST_TEMPLATE', _WEB_HOST_ROOT . '/public');
 
